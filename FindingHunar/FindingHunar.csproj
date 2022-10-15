@@ -5,6 +5,46 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\blue.css" />
+    <Content Remove="wwwroot\css\cyan.css" />
+    <Content Remove="wwwroot\css\default.css" />
+    <Content Remove="wwwroot\css\green.css" />
+    <Content Remove="wwwroot\css\indigo.css" />
+    <Content Remove="wwwroot\css\orange.css" />
+    <Content Remove="wwwroot\css\pink.css" />
+    <Content Remove="wwwroot\css\purple.css" />
+    <Content Remove="wwwroot\css\red.css" />
+    <Content Remove="wwwroot\css\yellow.css" />
+    <Content Remove="wwwroot\img\blog-1.jpg" />
+    <Content Remove="wwwroot\img\blog-2.jpg" />
+    <Content Remove="wwwroot\img\blog-3.jpg" />
+    <Content Remove="wwwroot\img\brands.png" />
+    <Content Remove="wwwroot\img\mockup.png" />
+    <Content Remove="wwwroot\scss\_custom.scss" />
+    <Content Remove="wwwroot\scss\_variables.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\blue.css" />
+    <None Include="wwwroot\css\cyan.css" />
+    <None Include="wwwroot\css\default.css" />
+    <None Include="wwwroot\css\green.css" />
+    <None Include="wwwroot\css\indigo.css" />
+    <None Include="wwwroot\css\orange.css" />
+    <None Include="wwwroot\css\pink.css" />
+    <None Include="wwwroot\css\purple.css" />
+    <None Include="wwwroot\css\red.css" />
+    <None Include="wwwroot\css\yellow.css" />
+    <None Include="wwwroot\img\blog-1.jpg" />
+    <None Include="wwwroot\img\blog-2.jpg" />
+    <None Include="wwwroot\img\blog-3.jpg" />
+    <None Include="wwwroot\img\brands.png" />
+    <None Include="wwwroot\img\mockup.png" />
+    <None Include="wwwroot\scss\_custom.scss" />
+    <None Include="wwwroot\scss\_variables.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.30" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.30">
       <PrivateAssets>all</PrivateAssets>
